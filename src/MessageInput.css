@@ -1,0 +1,125 @@
+@import url("https://css.gg/atlasian.css");
+body {
+  background-color: #393e46;
+  padding-top: 8vh;
+  padding-bottom: 50px;
+}
+
+.main-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 40px;
+  width: 100vw;
+  position: absolute;
+}
+
+.outer-container-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  bottom: 1px;
+  width: 100%;
+}
+
+.outer-container-input input {
+  width: 90%;
+  font-size: 20px;
+  padding: 8px 0 8px 10px;
+  color: white;
+  border: #ff8050 1.5px solid;
+  border-right: 0;
+  border-radius: 10px 0px 0 0px;
+  background-color: #393e46;
+}
+
+.outer-container-input input::-webkit-input-placeholder {
+  font-size: 20px;
+  color: #ff8050;
+}
+
+.outer-container-input input:-ms-input-placeholder {
+  font-size: 20px;
+  color: #ff8050;
+}
+
+.outer-container-input input::-ms-input-placeholder {
+  font-size: 20px;
+  color: #ff8050;
+}
+
+.outer-container-input input::placeholder {
+  font-size: 20px;
+  color: #ff8050;
+}
+
+.outer-container-input button {
+  width: 15%;
+  font-size: 20px;
+  background-color: #ff8050;
+  border-radius: 0px 10px 0px 0;
+  border: #ff8050 1.5px solid;
+  border-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.outer-container-input button i {
+  color: white;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  padding-left: 2px;
+}
+
+.message-grey {
+  font-size: 18px;
+  padding: 15px;
+  margin-bottom: 15px;
+  width: 50%;
+  float: left;
+  text-align: left;
+  background-color: #d8e3e7;
+  color: #393e46;
+}
+
+.message-grey .message-sender {
+  color: #ff8050;
+  font-size: 14px;
+  padding-bottom: 5px;
+  font-weight: 500;
+}
+
+.message-blue {
+  font-size: 18px;
+  padding: 15px;
+  margin-bottom: 15px;
+  width: 50%;
+  float: left;
+  text-align: left;
+  background-color: #ff8050;
+  color: white;
+}
+
+.message-blue .message-sender {
+  color: #393e46;
+  font-size: 13px;
+  padding-bottom: 5px;
+  font-weight: 500;
+}
+
+.message-outer-container {
+  width: 100%;
+}
+/*# sourceMappingURL=MessageInput.css.map */

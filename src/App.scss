@@ -1,0 +1,108 @@
+@mixin title ($orange, $yellow){
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: $orange;
+    border: $orange 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+
+    box-shadow: 2px 2px 4px 1px $yellow;
+}
+
+
+$search-bar-background: #393e46;
+// $search-bar-text: #00adb5;
+$search-bar-text: #ff8050;
+
+$other-msg: #d8e3e7;
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+// -------------------------------------- Content Page
+
+.active-members-count{
+
+    display: flex;
+    align-items: center;
+    
+
+    width: 100%;
+    padding: 10px;
+    line-height: 30px;
+    font-size: 20px;
+    position: fixed;
+    top: -0;
+
+    background-color: $search-bar-text;
+    color: white;
+    ion-icon{
+        width: 30px;
+        height: 20px;
+        // margin-top: 10px;
+    }
+    
+}
+.extra{
+    font-size: 40px;
+}
+
+// -------------------------------------- Entry Page
+
+.login-page{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    // box-shadow: 0.1px 0.2px 50px 0.2px $search-bar-text;
+
+    img{
+        margin-bottom: 50px;
+        color: $search-bar-text;
+        // font-size: 3.7em;
+        margin-top: 20vh;
+
+        width: 80%;
+        // height: ;
+        // box-shadow: 0.1px 0.2px 50px 0.2px $search-bar-text;
+    }
+
+    input{
+        background-color: $search-bar-background;
+        color: $search-bar-text;
+
+        width: 80%;
+
+        padding: 8px;
+        font-size: 21px;
+        margin-bottom: 10px;
+
+        border: none;
+        border-bottom: $search-bar-text 1px solid;
+        color: white;
+
+        &::placeholder{
+            background-color: $search-bar-background;
+            color: $search-bar-text;
+        }
+    }
+
+    button{
+        background-color: $search-bar-text;
+        color: white;
+        width: 85%;
+
+        font-size: 21px;
+
+        padding: 10px;
+        margin-top: 30px;
+
+        border: none;
+    }
+}

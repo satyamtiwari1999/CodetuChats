@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  outline: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.active-members-count {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 10px;
+  line-height: 30px;
+  font-size: 20px;
+  position: fixed;
+  top: -0;
+  background-color: #ff8050;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.active-members-count ion-icon {
+  width: 30px;
+  height: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.extra {
+  font-size: 40px;
 }
+
+.login-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login-page img {
+  margin-bottom: 50px;
+  color: #ff8050;
+  margin-top: 20vh;
+  width: 80%;
+}
+
+.login-page input {
+  background-color: #393e46;
+  color: #ff8050;
+  width: 80%;
+  padding: 8px;
+  font-size: 21px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: #ff8050 1px solid;
+  color: white;
+}
+
+.login-page input::-webkit-input-placeholder {
+  background-color: #393e46;
+  color: #ff8050;
+}
+
+.login-page input:-ms-input-placeholder {
+  background-color: #393e46;
+  color: #ff8050;
+}
+
+.login-page input::-ms-input-placeholder {
+  background-color: #393e46;
+  color: #ff8050;
+}
+
+.login-page input::placeholder {
+  background-color: #393e46;
+  color: #ff8050;
+}
+
+.login-page button {
+  background-color: #ff8050;
+  color: white;
+  width: 85%;
+  font-size: 21px;
+  padding: 10px;
+  margin-top: 30px;
+  border: none;
+}
+/*# sourceMappingURL=App.css.map */
